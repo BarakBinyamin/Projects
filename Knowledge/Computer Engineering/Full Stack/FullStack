@@ -1,0 +1,71 @@
+How to make a full stack website in 30 minutes or less
+
+# Whats full-stack?
+	Usually Full-stack means that you'll have a service,database, 
+api and a website, but its definition is "Full-stack refers to a group
+of programming languages and tools a developer learns to handle both the
+front-end and back-end development of a website"
+	
+Today we'll ignore the database part...
+We'll make a website that will respond with an image when you search in
+words.
+
+service -> iterface -> website
+
+# More insight
+the service will live on our computer
+the interface will live on our computer
+the website will live on someone elses computer
+
+Services can be running or instantiated on demand (like a thread).
+Either way, it may take time for the service to be ready to return
+its information. We account for this by assigning an indentifier 
+to the thread. We give that identifier to the website so it can be 
+periodically check in on the status of the thread.
+
+Flow in our project:
+1. website search -> iterface -> starts python thread
+2. interface thread ID -> website
+3. Web LOOP: website checks on thread with ID -> iterface
+	If interface tells website the threads not done
+	    websites waits a bit, then goes back to LOOP
+	Else:
+		Website uses the data from the interface
+
+# Picking Frameworks - should allow you to speedly develop human readable code
+For the service we'll use instantiated python threads
+For the interface well use express
+For the website we'll use the vue3 framework, vite to develop, and express
+to serve it 
+
+# Comunication 
+How will communicate with the next?
+I like to define a standardized JSON for each communication becuase
+it's self documenting
+
+# Implementation
+
+## Service
+We'll use #requests to search google for the top image
+We'll use #BeautifulSoup to parse out the top image url
+We'll use #JSON to send the results in json
+
+## Interface
+We'll use #express to serve url routes
+We'll use #spawn to spawn pthon threads
+We'll use #cors to allow cross website requests, which is disabled by default
+
+## Website
+We'll use the #vue3 framework to speedly develop human readable reusable code
+We'll use #vite to setup, test, and build our code
+We'll use #express to serve the built website
+
+
+
+
+
+
+
+
+	
+

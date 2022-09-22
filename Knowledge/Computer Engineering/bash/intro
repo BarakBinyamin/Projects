@@ -1,0 +1,31 @@
+This is a short series discussing what I believe to some key take aways from my time studying computer engineering. 
+
+Directory: 
+1. What is a computer?
+2. What is logic?
+
+
+
+
+RIT order of coarses:
+
+comp sci 1 (python3, intro to coding)
+digital systems design 1 ( basic digital circuits with chips)
+calculus 1
+
+comp sci 2 (java, intro to object oriented coding)
+digital systems design 2 ( design the logic for a mips processor on an FPGA)
+calculus
+discrete math
+physics 1 
+
+embeded systems - (C for micro controllers)
+software engineering practices - design planning and priciples
+calculus 2
+linear & differential equations (systems of linear equations, non-linear systems)
+physics 2
+
+applied c (depth into c for x86, performance principles, & leveraging a compiler)
+computer architecture (performance oriented systems of logic)
+calculus 3 
+digital systems design - (logic at the circuit level, hardware constraints and propogation delay)
