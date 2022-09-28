@@ -1,0 +1,25 @@
+{
+    "normal_list"    : [1,"two", {"id": "three"}],
+    "list_of_objects": [
+        {
+            "string": "hello this is a string",
+            "number": 1,
+            "missing_feild": {"item": "1"}
+
+        },
+        {
+            "string": "hi this is also a string",
+            "number": 2,
+            "missing_feild": {"item": "2"}
+        },
+        {
+            "string": "hello this is another string",
+            "number": 3
+        }
+    ],
+    "object": {
+        "string": "this is a string",
+        "number": 52
+    },
+    "key" : "value"
+}
