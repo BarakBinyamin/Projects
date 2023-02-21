@@ -25,7 +25,7 @@ Dependency management is pretty alright
 Actually just one...
 <p align="center">
     <p style="font-size: 20px;" align="center">
-        <a>Fireship</a> - Fast paced, but digestible information of or realted to javascript
+        <a href="https://www.youtube.com/watch?v=DHjqpvDnNGE">Fireship</a> - Fast paced, but digestible information of or realted to javascript
     </p>
 </p>
 
