@@ -27,7 +27,7 @@ someFunctionThatReturnsPromise().then((result)=>{
   // do something with error
 }
 
-bakeCookies.then((cookies)->{
+bakeCookies.then((cookies)=>{
   eatcookies(cookies)
 }).catch((error)=>{
   console.log(`Cookies are bad as a result of this error: ${error}`)
