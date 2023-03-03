@@ -6,7 +6,7 @@ const QRCode = require('qrcode')
 const fs     = require('fs')
 
 // download png
-async download(filename, jsontoconvert){
+async function download(filename, jsontoconvert){
   const datastring = JSON.stringify(jsontoconvert)
   const dataURL    = QRCode.toDataURL(datastring)
   const data       = dataURL.split(',')[1]
@@ -15,7 +15,7 @@ async download(filename, jsontoconvert){
 }
 
 // display in terminal
-async display(jsontoconvert){
+async function display(jsontoconvert){
   const datastring   = JSON.stringify(jsontoconvert)
   const qrcodeString = await QRCode.toString(datastring)
   console.log(qrcodeString)
