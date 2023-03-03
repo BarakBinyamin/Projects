@@ -8,9 +8,9 @@ const fs     = require('fs')
 // download png
 async function download(filename, jsontoconvert){
   const datastring = JSON.stringify(jsontoconvert)
-  const dataURL    = QRCode.toDataURL(datastring)
+  const dataURL    = await QRCode.toDataURL(datastring)
   const data       = dataURL.split(',')[1]
-  const buff       = Buffer.from(a,'base64')
+  const buff       = Buffer.from(data,'base64')
   fs.writeFileSync(`${filename}.png`, buff)
 }
 
