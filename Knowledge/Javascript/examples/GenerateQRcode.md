@@ -25,7 +25,7 @@ async function main(){
   const someJSON = { "feild1":"value2", "feild2": 500 }
   const filename = "example"
   download(filename,someJSON)
-  display(jsontoconvert)
+  display(someJSON)
 }
 
 main()
