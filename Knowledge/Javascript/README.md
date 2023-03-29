@@ -9,6 +9,7 @@ This is a small project that explores what javascript is and how to use it
 It has some great communitites, lots of stack overflow coverage, and pretty much any micro-functionality you can think of available on [npm](https://www.npmjs.com)  
 It's a good platform for event based coding  
 Dependency management is pretty alright
+It can be run on broswers and on servers
 
 ## Some awesome packages
 | Name                                                        | Use                            | Example                      |
